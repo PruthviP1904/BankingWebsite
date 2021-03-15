@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('bank3.jpg');
+  background-size: cover;
+}
+.buttons {
+  left: 40%;
+  top: 45%;
+  position: fixed;
+}
+.content{
+  color: white;
+}
+button {
+   /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button1 {
+ background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 5px solid skyblue;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 5px solid skyblue;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.img1{
+  left:41%;
+  
+  position: fixed; 
+}
+table{
+  letter-spacing: 1.2px;
+}
+td{
+  text-align: center;
+}
+button{
+  border:none;
+  background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+  *{
+    letter-spacing: 1px;
+  }
+}
+.button3{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
